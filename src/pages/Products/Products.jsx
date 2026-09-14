@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
-import Button from "../../components/button/button";
+import Button from "../../components/button/ButtonComponent";
 
 function Product() {
   const images = [
