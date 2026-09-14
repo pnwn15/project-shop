@@ -7,7 +7,6 @@ function Footer() {
         <div className="border stay-up">
           <div className="d-flex flex-md-row flex-column justify-content-around align-items-md-center gap-3">
             <h3 className="mb-0">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h3>
-
             <div className="d-flex flex-column w-100 ">
               <div className="input-group username-input h-25 ">
                 <span className="input-group-text" id="basic-addon1">
