@@ -60,7 +60,6 @@ export default function Header() {
             </button>
           </div>
         </div>
-
         {isMenuOpen && (
           <nav className="d-flex d-md-none flex-column gap-3 pb-3">
             {listMenu.map((item) => (
