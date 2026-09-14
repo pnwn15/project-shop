@@ -91,7 +91,6 @@ function Home() {
                 <div className="carousel-caption">
                   <h1>{slide.title}</h1>
                   <p>{slide.description}</p>
-
                   <button
                     type="button"
                     className={`btn ${slide.buttonClass} btn-shop`}

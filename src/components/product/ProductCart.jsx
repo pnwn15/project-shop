@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 function ProdutCart({ items }) {
   return (
     <div className="product-card">
       <div className="bg-body-secondary rounded d-flex justify-content-center p-4">
-        <a href="/product">
+        <Link to="/product">
           <img src={items.image} alt={items.title} />
-        </a>
+        </Link>
       </div>
       <h6 className="pt-3">{items.title}</h6>
       <div className="product-rating">
