@@ -120,11 +120,9 @@ p,a {
   h1 {
     font-size: var(--fs-3xl);
   }
-
   h2 {
     font-size: var(--fs-2xl);
   }
-
   h3 {
     font-size: var(--fs-xl);
   }
