@@ -1,0 +1,36 @@
+.footer {
+  background: #f0f0f0;
+  color: black;
+  padding: 60px 0px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-brand {
+  width: 25%;
+  text-align: start;
+}
+
+.footer-list{
+    width: 75%;
+}
+
+.stay-up{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate: -50% -110%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+@media (max-width: 767.98px) {
+  .footer-brand,
+  .footer-list {
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.thumnnails {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+@media (max-width: 767.98px) {
+  .thumnnails {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 0.75rem;
+    width: 100%;
+  }
+  .thumnnails > div {
+    flex: 0 0 100px;
+    width: 70px;
+    height: 70px;
+  }
+  .main-image-box {
+    min-height: 300px !important;
+    min-width: 0 !important;
+    width: 100%;
+  }
+}

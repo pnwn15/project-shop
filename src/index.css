@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import "./style/input.css";
+@import "./style/typography.css";
+@import "./style/footer.css";
+@import "./style/button.css";
+@import "./style/carousel.css";
+@import "./style/productid.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #0d6efd;
+  --color-primary-hover: #0b5ed7;
+  --color-primary-light: #e7f1ff;
+  --color-secondary: #6c757d;
+  --color-secondary-hover: #5c636a;
+  --color-success: #198754;
+  --color-warning: #ffc107;
+  --color-danger: #dc3545;
+  --color-info: #0dcaf0;
+  --color-bg: #f8f9fa;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f1f3f5;
+  --color-text: #212529;
+  --color-text-secondary: #495057;
+  --color-text-muted: #6c757d;
+  --color-text-light: #adb5bd;
+  --color-border: #dee2e6;
+  --color-border-light: #e9ecef;
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-md: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.5rem; /* 24px */
+  --font-size-3xl: 2rem; /* 32px */
+  --font-size-4xl: 2.5rem; /* 40px */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+  --space-10: 64px;
+  --space-11: 80px;
+  --space-12: 96px;
+  --container-sm: 540px;
+  --container-md: 720px;
+  --container-lg: 960px;
+  --container-xl: 1140px;
+  --container-xxl: 1320px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow: 0.35s ease;
+  --navbar-height: 72px;
+  --footer-height: 200px;
+  --z-dropdown: 1000;
+  --z-navbar: 1020;
+  --z-modal: 1050;
+  --z-tooltip: 1100;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: black;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-normal);
+}
+
+.nav-link-custom {
+  color: #333;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.nav-link-custom:hover {
+  color: #ff0000;
+  text-decoration: 2px underline;
+}
+
+.main {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.product-card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.product-card img {
+  width: auto;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 14px;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.stars {
+  color: #ffc107;
+  letter-spacing: 2px;
+}
+
+.card-style {
+  height: 200px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+  padding: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-style h1 {
+  color: #000;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.badge-count {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px;
+  background-color: bisque;
+  border-radius: 4px;
+}
+
+@media (max-width: 1280px) {
+  .card-style {
+    height: 150px;
+  }
+}

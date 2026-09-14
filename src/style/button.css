@@ -1,0 +1,31 @@
+
+.btn-social:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #000 !important;
+  transform: translateY(-2px);
+}
+
+.btn-shop:hover {
+  background-color: orange !important;
+  border: none !important;
+}
+
+.badge {
+  padding: 6px 12px;
+  background-color: #FF33331A;
+  font-size: 14px;
+  border-radius: 12px;
+  color: red;
+  font-weight: 400;
+}
+
+.btn {
+  font-size: 14px !important;
+  border-radius: 20px;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}

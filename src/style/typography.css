@@ -1,0 +1,131 @@
+:root {
+  --fs-xs: 0.75rem;     /* 12px */
+  --fs-sm: 0.875rem;    /* 14px */
+  --fs-base: 1rem;      /* 16px */
+  --fs-lg: 1.125rem;    /* 18px */
+  --fs-xl: 1.25rem;     /* 20px */
+  --fs-2xl: 1.5rem;     /* 24px */
+  --fs-3xl: 1.875rem;   /* 30px */
+  --fs-4xl: 2.25rem;    /* 36px */
+  --fs-5xl: 3rem;       /* 48px */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --lh-tight: 1.2;
+  --lh-normal: 1.5;
+  --lh-relaxed: 1.7;
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.02em;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: var(--fs-base);
+  font-weight: var(--fw-regular);
+  color: #212529;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--tracking-tight);
+}
+
+h1 {
+  font-size: var(--fs-5xl);
+  font-weight: var(--fw-bold);
+}
+
+h2 {
+  font-size: var(--fs-4xl);
+  font-weight: var(--fw-bold);
+}
+
+h3 {
+  font-size: var(--fs-3xl);
+  font-weight: var(--fw-bold);
+}
+
+h4 {
+  font-size: var(--fs-2xl);
+}
+
+h5 {
+  font-size: var(--fs-xl);
+}
+
+h6 {
+  font-size: var(--fs-lg);
+}
+
+p,a {
+  margin: 0;
+  color: #6c757d;
+  font-size: var(--fs-sm);
+}
+
+.text-body {
+  font-size: var(--fs-base);
+  line-height: var(--lh-normal);
+}
+
+.text-body-sm {
+  font-size: var(--fs-sm);
+  line-height: var(--lh-normal);
+}
+
+.text-caption {
+  font-size: var(--fs-xs);
+  line-height: var(--lh-normal);
+}
+
+.text-label {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+}
+
+.text-price {
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-bold);
+}
+
+.text-price-lg {
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-bold);
+}
+
+.nav-menu {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  line-height: 1;
+  letter-spacing: var(--tracking-normal);
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: var(--fw-medium);
+}
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: var(--fs-3xl);
+  }
+
+  h2 {
+    font-size: var(--fs-2xl);
+  }
+
+  h3 {
+    font-size: var(--fs-xl);
+  }
+}

@@ -1,0 +1,43 @@
+export const products = [
+  {
+    id: 1,
+    name: "T-SHIRT WITH TAPE DETAILS",
+    before: 490,
+    after: 450,
+    discount: -50,
+    rating: 4.5,
+    image: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/2a8b7de4cacf4db088fe475600f3a8ae_9366/Designed_for_Training_Workout_Tank_Top_Green_KA7318_23_hover_model.jpg",
+    category: "เสื้อ",
+
+  },
+  {
+    id: 2,
+    name: "T-SHIRT WITH TAPE DETAILS",
+    before: 490,
+    after: 450,
+    discount: -50,
+    rating: 4.5,
+    image: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/2a8b7de4cacf4db088fe475600f3a8ae_9366/Designed_for_Training_Workout_Tank_Top_Green_KA7318_23_hover_model.jpg",
+    category: "กางเกง",
+  },
+  {
+    id: 3,
+    name: "T-SHIRT WITH TAPE DETAILS",
+    before: 490,
+    after: 450,
+    discount: -50,
+    rating: 4.5,
+    image: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/2a8b7de4cacf4db088fe475600f3a8ae_9366/Designed_for_Training_Workout_Tank_Top_Green_KA7318_23_hover_model.jpg",
+    category: "รองเท้า",
+  },
+  {
+    id: 4,
+    name: "T-SHIRT WITH TAPE DETAILS",
+    before: 490,
+    after: 450,
+    discount: -50,
+    rating: 4.5,
+    image: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/2a8b7de4cacf4db088fe475600f3a8ae_9366/Designed_for_Training_Workout_Tank_Top_Green_KA7318_23_hover_model.jpg",
+    category: "รองเท้า",
+  },
+];
